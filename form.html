@@ -1,0 +1,93 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./form.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <div id="maincontainer">
+        <fieldset class="fieldcontainer">
+            <h1> Job Application form</h1>
+            <form>
+                <div class="formdiv">
+                    <br>
+                    <label>Name :</label><br>
+                    <input type="text" placeholder="Enter your name" required><br><br>
+                    <label> Last Name :</label> <br>
+                    <input type="text" placeholder="Enter your Last name" required><br><br>
+                    <label>Gender : </label><br>
+                    <input type="radio" id="male" name="Gender" value="Male" class="forradio"><label for="male">
+                        <i>Male</i></label>
+                    <input type="radio" id="female" name="Gender" value="Female" class="forradio"><label
+                        for="female"><i>Female</i></label> <br><br>
+                    <label> DOB :</label><br>
+                    <input type="date" required><br><br>
+                    <label> Location : </label> <br>
+                    <input type="text" placeholder="Enter your Location" required><br><br><br>
+                    <label>Qualification : </label><br> <select>
+                        <option> select </option>
+                        <option> Degree </option>
+                        <option> B.tech </option>
+                        <option> MCA </option>
+                        <option> none </option>
+                    </select> <br><br>
+                    <label> College name : </label> <br><input type="text" placeholder="Enter your College name"
+                        required><br><br>
+                    <label> Year of Pass : </label> <br><select>
+                        <option> Select year </option>
+                        <option> 2017 </option>
+                        <option> 2018 </option>
+                        <option> 2019 </option>
+                        <option> 2020 </option>
+                        <option> 2021 </option>
+                        <option> 2012 </option>
+                        <option> 2013 </option>
+                    </select> <br><br>
+                    <label> Technical Skills :</label> <br><br>
+                   <span> <input type="checkbox" value="html & css" class="forradio">     HTML & CSS<br>
+                    <input type="checkbox" value="JavaScript" class="forradio"> JavaScript<br>
+                    <input type="checkbox" value=".net" class="forradio">   .Net<br>
+                    <input type="checkbox" value="react js" class="forradio">   React JS<br>
+                    <input type="checkbox" value="html & css" class="forradio"> Python<br></span>
+
+                    <br><br>
+                    <label> Mention Your Other Skills : </label><br>
+                    <textarea  > </textarea><br><br>
+                    <label>Applying for : </label><br><br>
+                    <input type="radio" name="applying" value="Fresher" class="forradio"><label for="applying">
+                        <i>Fresher</i></label><br>
+                    <input type="radio" name="applying" value="Experienced" class="forradio"><label
+                        for="applying"><i>Experienced</i></label><br><br><br>
+                    <label for="#">Email ID:</label> <br>
+                    <input type="email" required placeholder="Enter email" > <br><br><br>
+                    <label for="#">Mobile Number :</label> <br>
+
+                    <input type="number" required placeholder="Enter Mobile number" > <br><br><br>
+
+
+                    <input type="button" value="Cancel" class="btn1">
+                    <input type="button" value="Submit" class="btn2"><br><br>
+
+                </div>
+            </form>
+        </fieldset>
+    </div>
+    ,<aside>
+        <h2>Watch the video for more information</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kJ0_x-tKwMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </aside>
+
+   
+
+</body>
+
+</html>
